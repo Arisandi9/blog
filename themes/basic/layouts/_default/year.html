@@ -1,0 +1,6 @@
+{{define "main"}}
+<h2>Post In {{ .Title }}</h2>
+ {{ range .Pages }}
+ {{ partial "post-summary.html" . }}
+ {{ end }}
+{{ end }}

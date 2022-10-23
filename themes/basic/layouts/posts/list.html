@@ -1,0 +1,7 @@
+{{define "main"}}
+<span class="display-5 d-block my-3">My {{ .Title }}</span>
+ {{ range .Paginator.Pages }}
+ {{ partial "post-summary.html" . }}
+ {{ end }}
+ {{ template "_internal/pagination.html" . }}
+{{ end }}

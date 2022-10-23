@@ -1,0 +1,25 @@
+baseURL = 'http://localhost:1313/'
+languageCode = 'en-us'
+title = 'CodeNexus'
+theme = "basic"
+disqusShortname = "Codenexus"
+
+
+[params]
+autohor = "arisandi kader"
+description = 'my prortfolio'
+keywords = "codenexus, programing, tech,css,html"
+
+[taxonomies]
+ year = "year"
+ month = "month"
+ tag = "tags"
+ category = "categories"
+
+[permalinks]
+ posts = "posts/:year/:month/:slug/"
+ year = "/posts/:slug/"
+ month = "/posts/:slug/"
+
+ Paginate = 10
+ 

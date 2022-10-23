@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Year on CodeNexus</title>
+    <link>http://localhost:1313/year/</link>
+    <description>Recent content in Year on CodeNexus</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 22 Oct 2022 20:57:09 +0900</lastBuildDate><atom:link href="http://localhost:1313/year/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2022</title>
+      <link>http://localhost:1313/posts/2022/</link>
+      <pubDate>Sat, 22 Oct 2022 20:57:09 +0900</pubDate>
+      
+      <guid>http://localhost:1313/posts/2022/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

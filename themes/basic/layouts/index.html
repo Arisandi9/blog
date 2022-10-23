@@ -1,0 +1,21 @@
+
+    {{ define "main" }}
+    <section>
+        {{ .Content }}
+    </section>
+
+    <section class="Post Terbaru">
+        <h2>Post terbaru</h2>
+        <ul>
+            {{ range .Pages }}
+            <li>
+                <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+            </li>
+            {{ end }}
+        </ul>
+    {{.Page.Description}}
+    </section>
+    
+     
+    {{ end }}
+
