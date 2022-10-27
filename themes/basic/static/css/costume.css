@@ -1,7 +1,7 @@
 :root {
     --primary-color: crimson;
     --primary-btn : rgb(071,001,005);
-    --font-base : 'poppins';
+    --font-base : 'Poppins', sans-serif;
 
 }
 
@@ -42,7 +42,7 @@ nav li {
 /* paragrap */
 
 article  p{
-    font-family: 'roboto';
+    font-family: 'Roboto', sans-serif;
 }
 
 /* search */
